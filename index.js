@@ -1,4 +1,4 @@
-//const linkPaulo = 'https://api.sheetmonkey.io/form/a6VC5NmdHUCacfgKSoBb3C';
+//gitconst linkPaulo = 'https://api.sheetmonkey.io/form/a6VC5NmdHUCacfgKSoBb3C';
 const linkTarlison = 'https://api.sheetmonkey.io/form/8RsMerKsjUk4eJ3XHeUHaX';
 
 const handleSubmit = async (event) => {
@@ -25,6 +25,17 @@ const handleSubmit = async (event) => {
 
   alert('enviado...')
 
+  document.querySelector('#nf').value = "";
+  document.querySelector('#data').value = "";
+  document.querySelector('#descricao').value = "";
+  document.querySelector('#valor').value = "";
+  document.querySelector('#fornecedor').value = "";
+  document.querySelector('#pag').value = "PIX";
+  document.querySelector('#obra').value = "";
+  document.querySelector('#obs').value = "";
+
 }
+
+nf.value = ""
 
 document.querySelector('form').addEventListener('submit', handleSubmit);
