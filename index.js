@@ -1,4 +1,4 @@
-const linkPaulo = 'https://api.sheetmonkey.io/form/a6VC5NmdHUCacfgKSoBb3C';
+//const linkPaulo = 'https://api.sheetmonkey.io/form/a6VC5NmdHUCacfgKSoBb3C';
 const linkTarlison = 'https://api.sheetmonkey.io/form/8RsMerKsjUk4eJ3XHeUHaX';
 
 const handleSubmit = async (event) => {
@@ -22,15 +22,6 @@ const handleSubmit = async (event) => {
     },
     body: JSON.stringify({ nf, data, desc, valor, form, pag, obra, obs }),
   });
-
-  nf = ""
-  data = ""
-  desc = ""
-  valor = ""
-  form = ""
-  pag = ""
-  obra = ""
-  obs = ""
 
   alert('enviado...')
 
