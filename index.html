@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Despesas</title>
+</head>
+
+<body>
+
+  <div class="head">
+    <img src="./img/logo.png" alt="">
+    <h1>Despesas</h1>
+  </div>
+
+
+  <form>
+
+    <input type="number" name="NF" id="nf" placeholder="NF">
+
+    <input type="date" name="DATA" id="data">
+
+    <input type="text" name="DESCRIÇÃO" id="descricao" placeholder="DESCRIÇÃO">
+
+    <input type="number" name="VALOR" id="valor" placeholder="VALOR">
+
+    <input type="text" name="FORNECEDOR" id="fornecedor" placeholder="FORNECEDOR">
+
+    <select name="PAGAMENTO" id="pag">
+      <option value="PIX" selected>PIX</option>
+      <option value="CREDITO">CREDITO</option>
+      <option value="DEBITO">DEBITO</option>
+    </select>
+
+    <input type="text" name="OBRA" id="obra" placeholder="OBRA">
+
+    <input type="text" name="OBSERVAÇÃO" id="obs" placeholder="OBSERVAÇÃO">
+
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
