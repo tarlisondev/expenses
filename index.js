@@ -23,16 +23,16 @@ const handleSubmit = async (event) => {
     body: JSON.stringify({ nf, data, desc, valor, form, pag, obra, obs }),
   });
 
-  nf.innerHTML = ""
-  data.innerHTML = ""
-  desc.innerHTML = ""
-  valor.innerHTML = ""
-  form.innerHTML = ""
-  pag.innerHTML = ""
-  obra.innerHTML = ""
-  obs.innerHTML = ""
+  nf.value = ""
+  data.value = ""
+  desc.value = ""
+  valor.value = ""
+  form.value = ""
+  pag.value = ""
+  obra.value = ""
+  obs.value = ""
 
-  console.log('enviado...')
+  alert('enviado...')
 
 }
 
