@@ -23,14 +23,14 @@ const handleSubmit = async (event) => {
     body: JSON.stringify({ nf, data, desc, valor, form, pag, obra, obs }),
   });
 
-  nf.value = ""
-  data.value = ""
-  desc.value = ""
-  valor.value = ""
-  form.value = ""
-  pag.value = ""
-  obra.value = ""
-  obs.value = ""
+  nf = ""
+  data = ""
+  desc = ""
+  valor = ""
+  form = ""
+  pag = ""
+  obra = ""
+  obs = ""
 
   alert('enviado...')
 
